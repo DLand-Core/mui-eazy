@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs123=self.webpackChunkdocs123||[]).push([[1121],{793:s=>{s.exports=JSON.parse('{"permalink":"/mui-eazy/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

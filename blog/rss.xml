@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>Mui Eazy Blog</title>
-        <link>https://dland-core.github.io/blog</link>
+        <link>https://dland-core.github.io/mui-eazy/blog</link>
         <description>Mui Eazy Blog</description>
         <lastBuildDate>Sun, 01 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,23 +10,23 @@
         <language>en</language>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://dland-core.github.io/blog/mdx-blog-post</link>
-            <guid>https://dland-core.github.io/blog/mdx-blog-post</guid>
+            <link>https://dland-core.github.io/mui-eazy/blog/mdx-blog-post</link>
+            <guid>https://dland-core.github.io/mui-eazy/blog/mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <category>docusaurus</category>
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
-            <link>https://dland-core.github.io/blog/long-blog-post</link>
-            <guid>https://dland-core.github.io/blog/long-blog-post</guid>
+            <link>https://dland-core.github.io/mui-eazy/blog/long-blog-post</link>
+            <guid>https://dland-core.github.io/mui-eazy/blog/long-blog-post</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <category>hello</category>
             <category>docusaurus</category>
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://dland-core.github.io/blog/first-blog-post</link>
-            <guid>https://dland-core.github.io/blog/first-blog-post</guid>
+            <link>https://dland-core.github.io/mui-eazy/blog/first-blog-post</link>
+            <guid>https://dland-core.github.io/mui-eazy/blog/first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <category>hola</category>
             <category>docusaurus</category>
