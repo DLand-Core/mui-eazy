@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs123=self.webpackChunkdocs123||[]).push([[5697],{4744:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/mui-eazy/blog/tags/docusaurus","allTagsPath":"/mui-eazy/blog/tags","count":3,"unlisted":false}')}}]);

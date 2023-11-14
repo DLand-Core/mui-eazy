@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Mui Eazy Blog</title>
         <link>https://dland-core.github.io/mui-eazy/blog</link>
         <description>Mui Eazy Blog</description>
-        <lastBuildDate>Sun, 01 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Nov 2023 11:30:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://dland-core.github.io/mui-eazy/blog/mdx-blog-post</link>
-            <guid>https://dland-core.github.io/mui-eazy/blog/mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://dland-core.github.io/mui-eazy/blog/long-blog-post</link>
-            <guid>https://dland-core.github.io/mui-eazy/blog/long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <category>hello</category>
-            <category>docusaurus</category>
-        </item>
-        <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://dland-core.github.io/mui-eazy/blog/first-blog-post</link>
-            <guid>https://dland-core.github.io/mui-eazy/blog/first-blog-post</guid>
-            <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
-            <category>hola</category>
-            <category>docusaurus</category>
+            <title><![CDATA[Where the dream begins]]></title>
+            <link>https://dland-core.github.io/mui-eazy/blog/dream</link>
+            <guid>https://dland-core.github.io/mui-eazy/blog/dream</guid>
+            <pubDate>Fri, 10 Nov 2023 11:30:22 GMT</pubDate>
+            <description><![CDATA[一个平平无奇的我]]></description>
+            <content:encoded><![CDATA[<p>一个平平无奇的我</p>
+<p>想用碎落一地的梦</p>
+<p>去助力别人的理想</p>
+<p>一同寻找各自热爱</p>]]></content:encoded>
         </item>
     </channel>
 </rss>
