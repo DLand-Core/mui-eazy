@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0">
     <channel>
         <title>Mui Eazy Blog</title>
         <link>https://dland-core.github.io/mui-eazy/blog</link>
@@ -13,11 +13,7 @@
             <link>https://dland-core.github.io/mui-eazy/blog/dream</link>
             <guid>https://dland-core.github.io/mui-eazy/blog/dream</guid>
             <pubDate>Fri, 10 Nov 2023 11:30:22 GMT</pubDate>
-            <description><![CDATA[一个平平无奇的我]]></description>
-            <content:encoded><![CDATA[<p>一个平平无奇的我</p>
-<p>想用碎落一地的梦</p>
-<p>去助力别人的理想</p>
-<p>一同寻找各自热爱</p>]]></content:encoded>
+            <description><![CDATA[<!-- 一个平平无奇的我]]></description>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmui_eazy_docs=self.webpackChunkmui_eazy_docs||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Where the dream begins","permalink":"/mui-eazy/blog/dream","unlisted":false}]}')}}]);
