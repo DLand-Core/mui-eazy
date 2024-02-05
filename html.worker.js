@@ -109,7 +109,7 @@ function illegalState(name) {
         return new Error('Illegal state');
     }
 }
-class NotSupportedError extends (/* unused pure expression or super */ null && (Error)) {
+class NotSupportedError extends Error {
     constructor(message) {
         super('NotSupported');
         if (message) {
@@ -694,7 +694,7 @@ class Node {
     }
 }
 Node.Undefined = new Node(undefined);
-class linkedList_LinkedList {
+class LinkedList {
     constructor() {
         this._first = Node.Undefined;
         this._last = Node.Undefined;
@@ -1781,7 +1781,7 @@ class EventDeliveryQueuePrivate {
         this.value = undefined;
     }
 }
-class PauseableEmitter extends (/* unused pure expression or super */ null && (Emitter)) {
+class PauseableEmitter extends Emitter {
     constructor(options) {
         super(options);
         this._isPaused = 0;
@@ -1822,7 +1822,7 @@ class PauseableEmitter extends (/* unused pure expression or super */ null && (E
         }
     }
 }
-class DebounceEmitter extends (/* unused pure expression or super */ null && (PauseableEmitter)) {
+class DebounceEmitter extends PauseableEmitter {
     constructor(options) {
         var _a;
         super(options);
@@ -1843,7 +1843,7 @@ class DebounceEmitter extends (/* unused pure expression or super */ null && (Pa
  * An emitter which queue all events and then process them at the
  * end of the event loop.
  */
-class MicrotaskEmitter extends (/* unused pure expression or super */ null && (Emitter)) {
+class MicrotaskEmitter extends Emitter {
     constructor(options) {
         super(options);
         this._queuedEvents = [];
@@ -2178,7 +2178,7 @@ function getAllPropertyNames(obj) {
     }
     return res;
 }
-function objects_getAllMethodNames(obj) {
+function getAllMethodNames(obj) {
     const methods = [];
     for (const prop of getAllPropertyNames(obj)) {
         if (typeof obj[prop] === 'function') {
@@ -3665,7 +3665,7 @@ class SimpleWorkerProtocol {
 /**
  * Main thread side
  */
-class SimpleWorkerClient extends (/* unused pure expression or super */ null && (Disposable)) {
+class SimpleWorkerClient extends lifecycle_Disposable {
     constructor(workerFactory, moduleId, host) {
         super();
         let lazyProxyReject = null;
@@ -3859,7 +3859,7 @@ class SimpleWorkerServer {
         if (this._requestHandlerFactory) {
             // static request handler
             this._requestHandler = this._requestHandlerFactory(hostProxy);
-            return Promise.resolve(objects_getAllMethodNames(this._requestHandler));
+            return Promise.resolve(getAllMethodNames(this._requestHandler));
         }
         if (loaderConfig) {
             // Remove 'baseUrl', handling it is beyond scope for now
@@ -3893,7 +3893,7 @@ class SimpleWorkerServer {
                     reject(new Error(`No RequestHandler!`));
                     return;
                 }
-                resolve(objects_getAllMethodNames(this._requestHandler));
+                resolve(getAllMethodNames(this._requestHandler));
             }, reject);
         });
     }
@@ -8593,7 +8593,7 @@ function ensureValidWordDefinition(wordDefinition) {
     result.lastIndex = 0;
     return result;
 }
-const _defaultConfig = new linkedList_LinkedList();
+const _defaultConfig = new LinkedList();
 _defaultConfig.unshift({
     maxLen: 1000,
     windowSize: 15,
@@ -14868,7 +14868,7 @@ class LinkedMap {
         }
     }
 }
-class LRUCache extends (/* unused pure expression or super */ null && (LinkedMap)) {
+class LRUCache extends LinkedMap {
     constructor(limit, ratio = 1) {
         super();
         this._limit = limit;
@@ -17132,7 +17132,7 @@ class EditorSimpleWorker {
         if (this._foreignModuleFactory) {
             this._foreignModule = this._foreignModuleFactory(ctx, createData);
             // static foreing module
-            return Promise.resolve(objects_getAllMethodNames(this._foreignModule));
+            return Promise.resolve(getAllMethodNames(this._foreignModule));
         }
         // ESM-comment-begin
         // 		return new Promise<any>((resolve, reject) => {
