@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmui_eazy_docs=self.webpackChunkmui_eazy_docs||[]).push([[8350],{4604:e=>{e.exports=JSON.parse('{"permalink":"/mui-eazy/zh/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

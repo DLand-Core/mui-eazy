@@ -4,7 +4,7 @@
         <title>Mui Eazy Blog</title>
         <link>https://dland-core.github.io/mui-eazy/zh/blog</link>
         <description>Mui Eazy Blog</description>
-        <lastBuildDate>Fri, 10 Nov 2023 11:30:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 07 Feb 2024 02:40:59 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[Where the dream begins]]></title>
             <link>https://dland-core.github.io/mui-eazy/zh/blog/dream</link>
             <guid>https://dland-core.github.io/mui-eazy/zh/blog/dream</guid>
-            <pubDate>Fri, 10 Nov 2023 11:30:22 GMT</pubDate>
+            <pubDate>Wed, 07 Feb 2024 02:40:59 GMT</pubDate>
             <description><![CDATA[<!-- 一个平平无奇的我]]></description>
         </item>
     </channel>
